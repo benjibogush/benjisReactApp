@@ -8,8 +8,10 @@ class App extends React.Component {
         <header className="App-header">
           <img src="/public/logo.png" className="App-logo" alt="logo" />
           
-<a href="https://discord.gg/2FZE72sT3P">Join Discord 7 to 77+ </a>
-          
+
+<a className="App-discord" href="https://discord.gg/2FZE72sT3P">Join Discord 7 to 77+ </a> 
+       
+
           
           
           <a
