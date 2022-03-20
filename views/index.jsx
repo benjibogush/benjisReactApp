@@ -7,9 +7,9 @@ class App extends React.Component {
       <div className="App">
         <header className="App-header">
           <img src="/public/logo.png" className="App-logo" alt="logo" />
-          <p>
-            Go to <a href="https://discord.gg/2FZE72sT3P">Join Discord 7 to 77+ </a> and save to reload.
-          </p>
+          
+<a href="https://discord.gg/2FZE72sT3P">Join Discord 7 to 77+ </a>
+          
           
           
           <a
