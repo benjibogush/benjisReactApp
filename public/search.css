@@ -1,0 +1,14 @@
+
+.search{
+  margin: auto;
+}
+
+.search-container {
+  width: 500px;
+  height: 300px;
+  margin: auto;
+}
+
+.googlesearch form{
+  display: none;
+}
