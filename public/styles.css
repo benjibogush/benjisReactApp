@@ -19,14 +19,14 @@ code {
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 60px;
-  padding: 20px;
+  height: 20px;
+  padding: 10px;
   pointer-events: none;
 }
 
 .App-header {
   background-color: #ffffff;
-  min-height: 50vh;
+  min-height: 40vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,8 +47,8 @@ code {
   display: flex;
   justify-content: space-between;
   
-  padding: 50px;
-  margin: 15px;
+  padding: 20px;
+  margin: 5px;
 
 }
 
@@ -89,4 +89,12 @@ code {
   80% { transform: translate(-1px, -1px) rotate(1deg);}
   90% { transform: translate(1px, 2px) rotate(0deg);}
   100% { transform: translate(1px, -2px) rotate(-1deg);}
+}
+
+.form-group {
+
+ 
+}
+.button:hover{
+  background: green;
 }

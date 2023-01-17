@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "../public/search.css";
+
 
 const Search = () => {
   const [value, setValue] = useState("");
@@ -65,15 +65,29 @@ const Search = () => {
     }
   };
 
+  const search = (e) => {
+    e.preventDefault();
+
+    console.log("buttom clicked", value);
+
+    dispatch({
+      type: actionTypes.SET_SEARCH_TERM,
+      term: value,
+    });
+
+    history.push("/search");
+  };
+
   return (
-    <div class="search-container">
+    <div id="search-container">
       <input name="search" id="search" value={value} onChange={handleChange} />
       <button id="submit" onClick={handleClick}>
         submit
       </button>
-      <div class="googlesearch"></div>
+      <div id="googlesearch"></div>
     </div>
   );
+  
 };
 
 export default Search;
